@@ -1,7 +1,11 @@
 <!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SuperPro Designer｜製程到製造決策</title><style>
 :root{--ink:#17222c;--muted:#5d6b77;--line:#dbe3e8;--bg:#f5f7f8;--card:#fff;--accent:#0d6573;--accent2:#dfeff1;--navw:300px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,"Noto Sans TC","Microsoft JhengHei",sans-serif;color:var(--ink);background:var(--bg);font-size:15px;line-height:1.75}.hero{background:linear-gradient(135deg,#102b35,#0d6573);color:#fff;padding:72px 7vw 60px}.eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;opacity:.75}.hero h1{font-size:clamp(34px,5vw,62px);line-height:1.08;margin:12px 0 18px;max-width:900px}.hero p{max-width:850px;font-size:18px;opacity:.9}.flow{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}.flow span{border:1px solid rgba(255,255,255,.28);padding:7px 11px;border-radius:999px;font-size:13px}.wrap{max-width:1120px;margin:auto;padding:44px 28px 90px}.intro{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px;margin-bottom:38px;box-shadow:0 8px 30px rgba(20,50,60,.05)}.intro h2{margin-top:0}.decision{font-size:20px;font-weight:700;color:var(--accent);margin:18px 0}.group{margin:56px 0 24px}.group-label{font-size:12px;color:var(--accent);font-weight:700;letter-spacing:.14em}.group h2{font-size:30px;margin:4px 0 10px}.group p{color:var(--muted);max-width:800px}.chapter{scroll-margin-top:24px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px;margin:16px 0;box-shadow:0 5px 20px rgba(30,50,60,.035)}.chapter-head{display:flex;gap:18px;align-items:flex-start}.num{font-size:12px;font-weight:800;color:#fff;background:var(--accent);border-radius:8px;padding:5px 8px;min-width:42px;text-align:center}.chapter h3{font-size:22px;margin:0 0 8px}.chapter p{margin:8px 0;color:#33434e}.chapter ul{margin:10px 0 4px;padding-left:22px}.callout{background:var(--accent2);border-left:4px solid var(--accent);padding:14px 16px;border-radius:0 9px 9px 0;margin-top:14px;font-weight:600}.matrix{width:100%;border-collapse:collapse;margin-top:18px}.matrix th,.matrix td{padding:11px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}.matrix th{background:#edf3f4}.questions{scroll-margin-top:24px;background:#fff;border:1px solid var(--line);border-radius:18px;padding:30px;margin:20px 0;box-shadow:0 8px 30px rgba(20,50,60,.05)}.questions h3{font-size:24px;margin:0 0 10px}.questions h4{font-size:18px;margin:28px 0 10px;color:var(--accent)}.qtable{width:100%;border-collapse:collapse;margin-top:16px}.qtable th,.qtable td{padding:12px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}.qtable th{background:#edf3f4}.qtable td:first-child{font-weight:800;color:var(--accent);width:54px}.q-en{font-weight:700;color:#20333e}.q-zh{color:#52646f;margin-top:5px;font-size:14px}.question-card{border-left:4px solid var(--accent);background:#f3f8f9;padding:14px 16px;margin:10px 0;border-radius:0 10px 10px 0}.question-card strong{display:block;margin-bottom:5px}.top3{counter-reset:q}.top3 .question-card{position:relative;padding-left:54px}.top3 .question-card:before{counter-increment:q;content:counter(q);position:absolute;left:16px;top:15px;width:25px;height:25px;border-radius:50%;background:var(--accent);color:#fff;text-align:center;line-height:25px;font-weight:800}.footer{color:var(--muted);font-size:13px;margin-top:50px;padding-top:24px;border-top:1px solid var(--line)}
 #toc{position:fixed;right:18px;top:18px;width:var(--navw);max-height:82vh;background:rgba(255,255,255,.97);border:1px solid #ccd8dd;border-radius:14px;box-shadow:0 16px 40px rgba(16,43,53,.18);z-index:9999;overflow:hidden;user-select:none}.toc-head{display:flex;align-items:center;justify-content:space-between;padding:12px 13px;background:#102b35;color:#fff;cursor:move}.toc-title{font-weight:700;font-size:14px}.toc-actions{display:flex;gap:6px}.toc-actions button{border:0;background:rgba(255,255,255,.12);color:#fff;border-radius:6px;width:27px;height:27px;cursor:pointer}.toc-body{padding:8px;overflow:auto;max-height:calc(82vh - 52px);user-select:text}.toc-body a{display:block;text-decoration:none;color:#33434e;font-size:12.5px;padding:6px 8px;border-radius:7px;line-height:1.35}.toc-body a:hover,.toc-body a.active{background:var(--accent2);color:var(--accent);font-weight:700}.toc-group{padding:8px 8px 4px;color:#81909a;font-size:10px;font-weight:800;letter-spacing:.1em}.collapsed{width:auto!important}.collapsed .toc-body{display:none}.collapsed .toc-title{white-space:nowrap}@media(max-width:720px){body{font-size:14px}.hero{padding:54px 24px 44px}.wrap{padding:28px 16px 70px}.chapter{padding:20px}.group h2{font-size:25px}#toc{width:250px;max-height:70vh}.toc-body{max-height:calc(70vh - 52px)}}@media print{#toc{display:none}.hero{background:#fff;color:#111;padding:25px 0}.wrap{max-width:none;padding:0}.chapter,.intro{box-shadow:none;break-inside:avoid}.group{break-after:avoid}}
-</style></head><body>
+</style>
+<style>
+.client-note{margin:14px 0 18px;padding:13px 15px;border-left:4px solid var(--accent,#3563e9);background:#f5f7fb;border-radius:8px;font-size:.92rem;line-height:1.65}.client-filters{display:grid;grid-template-columns:minmax(220px,2fr) 1fr 1fr auto;gap:10px;margin:18px 0}.client-filters input,.client-filters select,.client-filters button{font:inherit;padding:10px 12px;border:1px solid #d7dce5;border-radius:8px;background:#fff}.client-filters button{cursor:pointer;font-weight:700}.table-wrap{overflow:auto;border:1px solid #e1e5ec;border-radius:10px}.client-table{width:100%;border-collapse:collapse;min-width:780px}.client-table th,.client-table td{padding:11px 12px;border-bottom:1px solid #e8ebf0;text-align:left;vertical-align:top;line-height:1.55}.client-table th{position:sticky;top:0;background:#f2f4f8;z-index:1}.client-table tbody tr:hover{background:#fafbfc}.client-count{font-size:.88rem;color:#667085;margin-top:10px}@media(max-width:760px){.client-filters{grid-template-columns:1fr}.client-filters button{width:100%}}
+</style>
+</head><body>
 <header class="hero"><div class="eyebrow">INTELLIGEN / SUPERPRO DESIGNER</div><h1>從製程開發到製造決策的一體化工程平台</h1><p>將製程、設備、排程、資源、產能、成本、經濟與環境放進同一個量化模型，從「製程做不做得出來」一路回答到「擴產值不值得投資」。</p><div class="flow"><span>製程</span><span>設備</span><span>排程</span><span>資源</span><span>產能</span><span>成本</span><span>經濟</span><span>環境</span><span>產業應用</span><span>製造決策</span></div></header>
 <main class="wrap"><section class="intro"><h2>說明摘要</h2><p>SuperPro Designer 不只是 Process Simulation Software，而是以製程模型為核心，串接 Material & Energy Balance、Equipment Sizing、Batch Scheduling、Resource Tracking、Throughput & Debottlenecking、CAPEX/OPEX、COGS、IRR/NPV 與 Environmental Impact Assessment。</p><div class="decision">Process → Equipment → Time → Resources → Capacity → Cost → Economics → Environment</div><p>右上方「說明摘要｜快速導覽」可用滑鼠拖曳至畫面任意位置；點擊章節可快速跳轉，也可收合。位置會自動保存在目前瀏覽器。</p></section>
 <div class="group"><div class="group-label">01 / PROCESS FOUNDATION</div><h2>製程：先把製程變成可計算的模型</h2><p>從流程圖、物料、操作條件與單元操作開始，建立後續工程、產能與財務分析共同使用的數位基礎。</p></div>
@@ -75,4 +79,64 @@ let moving=false,dx=0,dy=0;drag.addEventListener('pointerdown',e=>{if(e.target.t
 toggle.onclick=()=>{toc.classList.toggle('collapsed');toggle.textContent=toc.classList.contains('collapsed')?'+':'−';save()};document.getElementById('reset').onclick=()=>{toc.style.left='auto';toc.style.top='18px';toc.style.right='18px';toc.style.bottom='auto';save()};
 const links=[...body.querySelectorAll('a')], observed=[...chapters,...document.querySelectorAll('.questions')];let obs=new IntersectionObserver(entries=>{entries.forEach(en=>{if(en.isIntersecting){links.forEach(a=>a.classList.toggle('active',a.dataset.target===en.target.id));let active=body.querySelector('.active');if(active)active.scrollIntoView({block:'nearest'})}})},{rootMargin:'-20% 0px -65% 0px',threshold:0});observed.forEach(c=>obs.observe(c));
 window.addEventListener('resize',()=>{let r=toc.getBoundingClientRect();if(r.right>innerWidth||r.bottom>innerHeight){toc.style.left=Math.max(0,innerWidth-toc.offsetWidth-18)+'px';toc.style.top='18px';toc.style.right='auto';save()}});
-</script></body></html>
+</script>
+<section id="global-users" class="group">
+  <div class="group-label">10 / GLOBAL USERS</div>
+  <h2>全球客戶與學術使用者</h2>
+  <p>Intelligen 公開的部分客戶名單涵蓋全球 500 多個工業據點與 1,500 多所大專院校。以下不是把完整名單逐項堆疊，而是依「國家／地區 → 產業 → 代表客戶／機構」整理，方便簡報與客戶溝通。公司與學校名稱維持正式英文名稱。</p>
+  <div class="client-note"><strong>資料註記：</strong>「原廠標示」表示原始客戶名單在名稱旁直接列出國家／地區；「所在地補充」為方便閱讀所加的總部或主要所在地資訊，不代表原始名單逐筆提供該國家欄位。</div>
+  <div class="client-filters">
+    <input id="clientSearch" type="search" placeholder="搜尋公司、學校、國家或產業…" aria-label="搜尋全球客戶">
+    <select id="countryFilter"><option value="">所有國家／地區</option></select>
+    <select id="industryFilter"><option value="">所有產業</option></select>
+    <button type="button" id="resetClients">清除篩選</button>
+  </div>
+  <div class="table-wrap"><table class="client-table"><thead><tr><th>國家／地區</th><th>產業</th><th>代表客戶／學術機構</th><th>國家資料</th></tr></thead><tbody id="clientRows">
+<tr><td>美國</td><td>製藥／生技</td><td>AbbVie；Biogen；Bristol Myers Squibb；Eli Lilly；Genentech；Gilead Sciences；Merck &amp; Co.；Moderna Therapeutics；Pfizer</td><td>所在地補充</td></tr>
+<tr><td>英國／瑞典</td><td>製藥／生技</td><td>AstraZeneca</td><td>所在地補充</td></tr>
+<tr><td>德國</td><td>製藥／生技</td><td>Bayer Healthcare；Boehringer Ingelheim；CureVac；Celonic</td><td>部分原廠標示</td></tr>
+<tr><td>瑞士</td><td>製藥／生技</td><td>CSL Behring；Lonza；Novartis；Roche Pharmaceuticals</td><td>部分原廠標示</td></tr>
+<tr><td>法國</td><td>製藥／生技</td><td>Sanofi；Sanofi Pasteur；LFB – Biomedicaments</td><td>部分原廠標示</td></tr>
+<tr><td>丹麥</td><td>製藥／生技</td><td>Novo Nordisk；Bavarian Nordic</td><td>部分原廠標示</td></tr>
+<tr><td>日本</td><td>製藥／生技</td><td>Takeda Pharmaceutical；Kyowa Hakko Bio；UNIGEN</td><td>部分原廠標示</td></tr>
+<tr><td>中國／愛爾蘭</td><td>製藥／生技</td><td>WuXi Biologics</td><td>原廠標示</td></tr>
+<tr><td>中國</td><td>製藥／生技</td><td>Henlius Biopharma；Innovent Biologics；TopAlliance Shanghai</td><td>原廠標示</td></tr>
+<tr><td>印度／馬來西亞</td><td>製藥／生技</td><td>Biocon</td><td>原廠標示</td></tr>
+<tr><td>比利時</td><td>製藥／生技</td><td>UCB Pharma；UNIVERCELLS Vaccines；Plasma Industries Belgium</td><td>部分原廠標示</td></tr>
+<tr><td>荷蘭</td><td>製藥／生技</td><td>Intravacc；uniQure biopharma</td><td>部分原廠標示</td></tr>
+<tr><td>韓國</td><td>生技／工程</td><td>Green Cross EM；Sartorius Korea；Samsung Engineering</td><td>原廠標示</td></tr>
+<tr><td>日本</td><td>工程</td><td>Chiyoda Corporation</td><td>所在地補充</td></tr>
+<tr><td>法國</td><td>工程</td><td>Technip Energies；Groupe Artelia；PROCESSCONSULT；PROCESSIUM</td><td>原廠標示</td></tr>
+<tr><td>英國／美國</td><td>工程</td><td>Briggs of Burton</td><td>原廠標示</td></tr>
+<tr><td>加拿大</td><td>工程</td><td>GMP Engineering；Laporte Consultants；SNC-Lavalin</td><td>原廠標示</td></tr>
+<tr><td>美國</td><td>食品／消費品</td><td>Procter &amp; Gamble；PepsiCo；Ingredion</td><td>部分所在地補充</td></tr>
+<tr><td>荷蘭</td><td>食品／消費品</td><td>Heineken</td><td>原廠標示</td></tr>
+<tr><td>英國／印度</td><td>食品／消費品</td><td>Unilever</td><td>原廠標示</td></tr>
+<tr><td>丹麥</td><td>食品／消費品</td><td>Arla Foods；Chr. Hansen</td><td>原廠標示</td></tr>
+<tr><td>瑞士</td><td>食品／消費品</td><td>Sofinol Nestlé</td><td>原廠標示</td></tr>
+<tr><td>德國</td><td>化學／材料</td><td>BASF；Clariant</td><td>部分原廠標示</td></tr>
+<tr><td>澳洲</td><td>材料／礦業</td><td>Albemarle Lithium</td><td>原廠標示</td></tr>
+<tr><td>加拿大</td><td>材料／生技材料</td><td>5N Plus；CelluForce；Mara Renewables</td><td>原廠標示</td></tr>
+<tr><td>美國</td><td>學術研究</td><td>Massachusetts Institute of Technology；Stanford University；Princeton University；Cornell University；Carnegie Mellon University；University of California, Berkeley</td><td>所在地補充</td></tr>
+<tr><td>英國</td><td>學術研究</td><td>Cambridge University；Imperial College London；University College London</td><td>原廠標示</td></tr>
+<tr><td>瑞士</td><td>學術研究</td><td>ETH Zurich；Institut de Genie Chimique</td><td>原廠標示</td></tr>
+<tr><td>日本</td><td>學術研究</td><td>Tokyo Institute of Technology；University of Tokyo；Hosei University</td><td>原廠標示</td></tr>
+<tr><td>台灣</td><td>學術研究</td><td>National Chung Cheng University（國立中正大學）；National Yunlin University of Science &amp; Technology（國立雲林科技大學）</td><td>所在地補充</td></tr>
+<tr><td>新加坡</td><td>學術研究</td><td>National University of Singapore；Nanyang Technological University；Singapore Institute of Technology；Singapore Polytechnic</td><td>部分原廠標示</td></tr>
+<tr><td>澳洲</td><td>學術研究</td><td>Monash University；University of Melbourne；University of Sydney；University of Adelaide</td><td>原廠標示</td></tr>
+  </tbody></table></div>
+  <p id="clientCount" class="client-count"></p>
+</section>
+
+<script>
+(function(){
+ const tbody=document.getElementById('clientRows'); if(!tbody)return;
+ const rows=[...tbody.querySelectorAll('tr')], c=document.getElementById('countryFilter'), i=document.getElementById('industryFilter'), q=document.getElementById('clientSearch'), count=document.getElementById('clientCount');
+ const vals=(n)=>[...new Set(rows.map(r=>r.cells[n].textContent.trim()))].sort((a,b)=>a.localeCompare(b,'zh-Hant'));
+ vals(0).forEach(v=>c.add(new Option(v,v))); vals(1).forEach(v=>i.add(new Option(v,v)));
+ function filter(){const s=q.value.trim().toLowerCase(),cv=c.value,iv=i.value;let n=0;rows.forEach(r=>{const ok=(!s||r.textContent.toLowerCase().includes(s))&&(!cv||r.cells[0].textContent.trim()===cv)&&(!iv||r.cells[1].textContent.trim()===iv);r.style.display=ok?'':'none';if(ok)n++});count.textContent='目前顯示 '+n+' / '+rows.length+' 組代表性資料';}
+ [q,c,i].forEach(x=>x.addEventListener(x===q?'input':'change',filter));document.getElementById('resetClients').addEventListener('click',()=>{q.value='';c.value='';i.value='';filter()});filter();
+ const toc=document.getElementById('tocBody')||document.querySelector('.toc-body'); if(toc && !toc.querySelector('[data-target="global-users"]')){const g=document.createElement('div');g.className='toc-group';g.textContent='全球使用者';toc.appendChild(g);const a=document.createElement('a');a.href='#global-users';a.textContent='全球客戶與學術使用者';a.dataset.target='global-users';toc.appendChild(a);}
+})();
+</script>
+</body></html>
